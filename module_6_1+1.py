@@ -12,13 +12,11 @@ class Plant:
 
 class Flower(Plant):
     def eat(self, name, food):
-        self.name = food
         self.food = food
 
 class Fruit(Plant):
     eduble = True
     def eat(self, name, food):
-        self.name = food
         self.food = food
 
 
